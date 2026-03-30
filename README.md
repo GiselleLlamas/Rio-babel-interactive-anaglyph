@@ -2,7 +2,8 @@
 
 **Autora:** Giselle Llamas  
 **Cátedra de la UNA:** Tirigall - Informática Aplicada 2
-**Universidad: UNA [Claustro de Artes Multimediales]:**  Link: [UNA (Buenos Aires, Argentina)](https://una.edu.ar/)
+**Universidad: UNA [Claustro de Artes Multimediales]:**
+Link: [UNA (Buenos Aires, Argentina)](https://una.edu.ar/)
 
 ---
 
@@ -16,7 +17,12 @@ La aplicación combina elementos 2D y 3D (anaglifo), física de partículas, sha
 
 - **Doble Modo de Visualización:**
   - **Modo Interactivo (2D):** Una vista cenital clásica donde se puede interactuar directamente con los objetos usando el mouse.
+    
+  <img width="1512" height="932" alt="Image of normal mode" src="https://github.com/user-attachments/assets/eefc303a-f70f-428f-9112-88a4461aef4e" />
+  
   - **Modo Anaglifo (3D):** Una experiencia estereoscópica que requiere gafas 3D rojo-cian. La profundidad y separación de los ojos se ajustan dinámicamente según la posición del personaje.
+    
+    <img width="1920" height="1055" alt="Image of Anaglyph mode" src="https://github.com/user-attachments/assets/b4e59f23-845a-43a3-8443-f5a5dabd34d2" />
 
 - **Física Interactiva:**
   - Utiliza **Box2D** para simular la física de todos los elementos: el personaje, las paredes y un sistema de partículas de palabras.
@@ -172,7 +178,7 @@ Solución:
 
 ### El joystick no responde
 
-El proyecto usa `GLFW_JOYSTICK_1`.
+El proyecto usa `GLFW_JOYSTICK_1`, mapeado desde un Joystick de Nintendo Switch marca "PowerA". Si tu joystick USB es distinto, vas a necesitar re-mapear los controladores del joystick manualmente.
 
 Solución:
 
@@ -215,4 +221,8 @@ No se concede ninguna licencia para:
 - Entrenamiento, ajuste o evaluación de modelos de IA/ML con este código, assets, documentación o capturas derivadas.
 - Extracción masiva de datos (scraping), minería de contenido o indexación para datasets.
 
-Cualquier uso distinto al permitido requiere autorización previa y por escrito de la autora.
+Cualquier uso distinto al permitido requiere autorización previa y por escrito de la autora. 
+
+Muchas gracias por tu interés en mi repositorio! :smile:
+
+<img src="https://github.com/user-attachments/assets/54a3136c-a5f7-4222-8fa2-ed76dcc46a85" width="400">
